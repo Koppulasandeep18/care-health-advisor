@@ -10,6 +10,7 @@ import './styles.css';
 const WHATSAPP = 'https://wa.me/919966383831';
 const PHONE = 'tel:+919966383831';
 const EMAIL = 'mailto:padmamerugu9158@gmail.com';
+const API_BASE_URL = 'https://care-health-advisor.onrender.com';
 
 const plans = [
   { title: 'Individual Health Plans', text: 'Coverage options designed around individual healthcare needs.', icon: UserRound },
@@ -53,7 +54,7 @@ function App() {
     };
 
     try {
-      const response = await fetch('/api/leads', {
+      const response = await fetch(`${API_BASE_URL}/api/leads`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload),
