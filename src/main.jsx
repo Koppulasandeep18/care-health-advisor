@@ -179,10 +179,11 @@ Please contact this customer.`;
               <div className="portrait-large"><img src="/nagaraju-merugu.jpg" alt="Nagaraju Merugu - Care Health Insurance Advisor"/></div>
               <span className="profile-role">CARE HEALTH INSURANCE ADVISOR</span>
               <h3>Nagaraju Merugu</h3>
+              <div className="royal-badge">ROYAL CLUB MEMBER</div>
               <p className="profile-note">Personalized assistance for health insurance enquiries and policy-related guidance.</p>
               <div className="profile-data">
                 <div><span>License / Agency No.</span><b>21008671</b></div>
-                <div><span>Service Area</span><b>Secunderabad & Hyderabad</b></div>
+                <div><span>Service Area</span><b>Pan India</b></div>
                 <div><span>Email</span><b>padmamerugu9158@gmail.com</b></div>
               </div>
               <div className="profile-actions"><a href={PHONE} className="btn btn-primary"><Phone size={17}/> Call</a><a href={WHATSAPP} target="_blank" rel="noreferrer" className="btn btn-whatsapp"><MessageCircle size={17}/> WhatsApp</a></div>
