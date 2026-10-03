@@ -13,3 +13,41 @@
 .form-success{background:#ecfbf4;color:#087b51;border:1px solid #bfe9d5}
 .form-error{background:#fff2f2;color:#b42318;border:1px solid #f1c2c2}
 .modal button:disabled{opacity:.65;cursor:not-allowed;transform:none}
+.royal-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 8px auto 14px;
+  padding: 8px 18px;
+  border-radius: 999px;
+
+  background: linear-gradient(
+    135deg,
+    #fff7cf 0%,
+    #f5d76e 45%,
+    #c99a22 100%
+  );
+
+  border: 1px solid #d5ad3b;
+  color: #513800;
+
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+
+  box-shadow:
+    0 5px 15px rgba(180, 130, 20, 0.22),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+
+  text-transform: uppercase;
+}
+
+.royal-crown {
+  font-size: 17px;
+  line-height: 1;
+}
+
+.royal-badge span:last-child {
+  line-height: 1;
+}

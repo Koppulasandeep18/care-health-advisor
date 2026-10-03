@@ -179,7 +179,11 @@ Please contact this customer.`;
               <div className="portrait-large"><img src="/nagaraju-merugu.jpg" alt="Nagaraju Merugu - Care Health Insurance Advisor"/></div>
               <span className="profile-role">CARE HEALTH INSURANCE ADVISOR</span>
               <h3>Nagaraju Merugu</h3>
-              <div className="royal-badge">ROYAL CLUB MEMBER</div>
+             
+<div className="royal-badge">
+  <span className="royal-crown">♛</span>
+  <span>ROYAL CLUB MEMBER</span>
+</div>
               <p className="profile-note">Personalized assistance for health insurance enquiries and policy-related guidance.</p>
               <div className="profile-data">
                 <div><span>License / Agency No.</span><b>21008671</b></div>
@@ -234,7 +238,7 @@ Please contact this customer.`;
 
       <footer className="footer">
         <div className="container footer-grid">
-          <div><img src="/care-logo.png" className="footer-logo" alt="Care Health Insurance"/><h3>Nagaraju Merugu</h3><p>Care Health Insurance Advisor</p><div className="footer-contact"><a href={PHONE}><Phone size={16}/> 99663 83831</a><a href={EMAIL}><Mail size={16}/> padmamerugu9158@gmail.com</a><span><MapPin size={16}/> Secunderabad & Hyderabad</span></div></div>
+          <div><img src="/care-logo.png" className="footer-logo" alt="Care Health Insurance"/><h3>Nagaraju Merugu</h3><p>Care Health Insurance Advisor</p><div className="footer-contact"><a href={PHONE}><Phone size={16}/> 99663 83831</a><a href={EMAIL}><Mail size={16}/> padmamerugu9158@gmail.com</a><span><MapPin size={16}/> PAN INDIA</span></div></div>
           <div><h4>Explore</h4><a href="#plans">Plans</a><a href="#advisor">Advisor</a><a href="#claims">Claims</a><a href="#faq">FAQs</a></div>
           <div><h4>Support</h4><a href={WHATSAPP} target="_blank" rel="noreferrer">WhatsApp</a><a href={PHONE}>Call Advisor</a><button onClick={() => setModal(true)}>Book a Consultation</button></div>
           <div><h4>Important</h4><a href="https://www.careinsurance.com/other-downloads.html" target="_blank" rel="noreferrer">Official documents</a><a href="https://www.careinsurance.com/" target="_blank" rel="noreferrer">Care Health Insurance</a><a href="#top">Back to top</a></div>
